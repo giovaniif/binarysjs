@@ -1,0 +1,9 @@
+{
+  "name": "binaryjs",
+  "version": "1.0.0",
+  "description": "A simple npm library to make binary search with javascript",
+  "main": "index.js",
+  "repository": "https://github.com/giovaniif/binaryjs.git",
+  "author": "Giovani Farias <riccog.25@gmail.com>",
+  "license": "MIT"
+}
