@@ -1,12 +1,11 @@
-module.exports = binarySearch = (target, array) => {
-  let startIndex = 0;
-  let endIndex = array.length - 1;
-
+module.exports = binarySearch = (target, array, startIndex=0, endIndex=false) => {
+  
+  if(!endIndex) endIndex = array.length - 1;
+  if(array.length <= 0) return false;
   while(startIndex <= endIndex) {
     let middleIndex = Math.floor((startIndex + endIndex) / 2);
 
     if(array[middleIndex] === target) {
-      console.log('Value found at index ' + middleIndex);
       return middleIndex;
     }
 
@@ -15,10 +14,8 @@ module.exports = binarySearch = (target, array) => {
     }
   
     if(array[middleIndex] > target) {
-      startIndex = middleIndex - 1;
-    }else {
-      console.log("Not found yet, searching again")
+      endIndex = middleIndex - 1;
     }
   }
-  console.log("Value not found in array");
+  return -1
 }
