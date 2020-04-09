@@ -5,5 +5,11 @@
   "main": "index.js",
   "repository": "https://github.com/giovaniif/binaryjs.git",
   "author": "Giovani Farias <riccog.25@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^25.3.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
 }

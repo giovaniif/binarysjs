@@ -1,1 +1,3 @@
-testing.js
+node_modules/
+jest.config.js
+coverage/
