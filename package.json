@@ -7,9 +7,15 @@
   "author": "Giovani Farias <riccog.25@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@babel/preset-env": "^7.9.5",
     "jest": "^25.3.0"
   },
   "scripts": {
     "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/jest": "^25.2.1",
+    "typescript": "^3.8.3"
   }
 }

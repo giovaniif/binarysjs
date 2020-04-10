@@ -1,6 +1,5 @@
-module.exports = getIndex = (target, array, startIndex=0, endIndex=false) => {
-  if(!endIndex) endIndex = array.length - 1;
-  if(array.length <= 0) return false;
+export default function getIndex(target: number, array: Array<number>, startIndex=0, endIndex=0){
+  if(endIndex === 0) endIndex = array.length - 1;
 
   while(startIndex <= endIndex) {
     let middleIndex = Math.floor((startIndex + endIndex) / 2);
