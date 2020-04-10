@@ -14,12 +14,12 @@ Binaryjs
 
 ## :information_source: How to use
 ```bash
-  $ npm install binaryjs
-  # $ yarn add binaryjs
+  $ npm install binarysjs
+  # $ yarn add binarysjs
 ```
 
 ```typescript
-  const getIndex = require('binaryjs');
+  const getIndex = require('binarysjs');
 
   const index = getIndex(target, array, startIndex?, endIndex?)
   // target = The value you want to find

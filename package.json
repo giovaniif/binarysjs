@@ -1,5 +1,5 @@
 {
-  "name": "binaryjs",
+  "name": "binarysjs",
   "version": "1.0.0",
   "description": "A simple npm library to make binary search with javascript",
   "main": "index.js",
