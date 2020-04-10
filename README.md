@@ -32,7 +32,7 @@ Binaryjs
 - Typescript
 - Jest
 
-Made with :hearts: by Giovani Farias :wave: [Get in touch](https://www.linkedin.com/in/giovani-ricco-farias-b97316186/)
-
 ## :memo: License
 This project is under the MIT license. See the [LICENSE](./LICENSE) for more information.
+
+Made with :hearts: by Giovani Farias :wave: [Get in touch!](https://www.linkedin.com/in/giovani-ricco-farias-b97316186/)
