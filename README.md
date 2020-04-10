@@ -1,5 +1,5 @@
 <h1 align="center">
-Binaryjs
+Binarysjs
 </h1>
 <p align="center">
   A simple npm library to make binary search with javascript
