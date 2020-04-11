@@ -1,9 +1,10 @@
 {
   "name": "binarysjs",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A simple npm library to make binary search with javascript",
   "main": "./dist/index.js",
   "types": "dist/index.d.ts",
+  "prepublish": "tsc",
   "repository": "https://github.com/giovaniif/binarysjs.git",
   "author": "Giovani Farias <riccog.25@gmail.com>",
   "license": "MIT",
