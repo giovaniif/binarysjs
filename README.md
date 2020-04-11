@@ -26,6 +26,10 @@ Binarysjs
   // array = The array you want to search in
   // startIndex && endIndex = optional parameters you don't want to check the whole array
 ```
+### Return values
+- Any number bigger than or equal to zero:  Found value index
+- -1: Value not found
+
 
 ## :rocket: Techs
 - Node.js
