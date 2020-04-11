@@ -1,4 +1,4 @@
-export default function getIndex(target: number, array: Array<number>, startIndex=0, endIndex=0){
+export function getIndex(target: number, array: Array<number>, startIndex=0, endIndex=0){
   if(endIndex === 0) endIndex = array.length - 1;
 
   while(startIndex <= endIndex) {

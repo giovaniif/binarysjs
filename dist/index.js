@@ -16,4 +16,4 @@ function getIndex(target, array, startIndex, endIndex) {
     }
     return -1;
 }
-exports.default = getIndex;
+exports.getIndex = getIndex;

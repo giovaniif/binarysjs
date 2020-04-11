@@ -1,4 +1,4 @@
-import getIndex from '../index';
+import { getIndex } from '../index';
 
 describe("Binary", () => {
   it("should return -1 if target is not found", () => {

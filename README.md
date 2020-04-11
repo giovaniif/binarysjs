@@ -19,7 +19,7 @@ Binarysjs
 ```
 
 ```typescript
-  const {default: getIndex} = require('binarysjs');
+  const { getIndex } = require('binarysjs');
 
   const index = getIndex(target, array, startIndex?, endIndex?)
   // target = The value you want to find
